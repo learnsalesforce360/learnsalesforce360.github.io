@@ -1,56 +1,20 @@
 {
-  "contentId": "footer-001",
-  "contentType": "Footer",
+  "id": "footer-001",
+  "type": "sfdc_cms__footer",
   "title": "Main Site Footer",
-  "contentBody": {
-    "copyrightText": "© 2024 LearnSalesforce360. All rights reserved.",
+  "unauthenticatedUrl": "https://learnsalesforce360.github.io/content/footer.json",
+  "contentNodes": {
+    "copyrightText": {
+      "value": "© 2024 LearnSalesforce360. All rights reserved."
+    },
     "footerLogo": {
       "url": "https://learnsalesforce360.github.io/assets/images/footer-logo.png",
       "altText": "LearnSalesforce360 Footer Logo",
       "title": "Company Footer Logo"
-    },
-    "socialLinks": [
-      {
-        "platform": "LinkedIn",
-        "url": "https://linkedin.com/company/learnsalesforce360",
-        "icon": "https://learnsalesforce360.github.io/assets/images/icons/linkedin.svg"
-      },
-      {
-        "platform": "Twitter",
-        "url": "https://twitter.com/learnsf360",
-        "icon": "https://learnsalesforce360.github.io/assets/images/icons/twitter.svg"
-      },
-      {
-        "platform": "YouTube",
-        "url": "https://youtube.com/@learnsalesforce360",
-        "icon": "https://learnsalesforce360.github.io/assets/images/icons/youtube.svg"
-      }
-    ],
-    "contactInfo": {
-      "email": "info@learnsalesforce360.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Learning Street, Tech City, TC 12345"
-    },
-    "footerLinks": [
-      {
-        "section": "Company",
-        "links": [
-          {"label": "About Us", "url": "/about"},
-          {"label": "Careers", "url": "/careers"},
-          {"label": "Blog", "url": "/blog"}
-        ]
-      },
-      {
-        "section": "Legal",
-        "links": [
-          {"label": "Privacy Policy", "url": "/privacy"},
-          {"label": "Terms of Service", "url": "/terms"},
-          {"label": "Cookie Policy", "url": "/cookies"}
-        ]
-      }
-    ]
+    }
   },
+  "contentUrlName": "main-site-footer",
   "language": "en_US",
-  "publishedDate": "2024-12-16T00:00:00Z",
-  "lastModifiedDate": "2024-12-16T00:00:00Z"
+  "publishedDate": "2024-12-16T00:00:00.000Z",
+  "lastModifiedDate": "2024-12-16T00:00:00.000Z"
 }
