@@ -1,0 +1,39 @@
+{
+  "contentId": "header-001",
+  "contentType": "Header",
+  "title": "Main Site Header",
+  "contentBody": {
+    "title": "LearnSalesforce360",
+    "logo": {
+      "url": "https://learnsalesforce360.github.io/assets/images/logo.png",
+      "altText": "LearnSalesforce360 Logo",
+      "title": "Company Logo"
+    },
+    "logoAlt": "LearnSalesforce360 - Your Salesforce Learning Hub",
+    "navigationLinks": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Courses",
+        "url": "/courses"
+      },
+      {
+        "label": "Resources",
+        "url": "/resources"
+      },
+      {
+        "label": "About",
+        "url": "/about"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact"
+      }
+    ]
+  },
+  "language": "en_US",
+  "publishedDate": "2024-12-16T00:00:00Z",
+  "lastModifiedDate": "2024-12-16T00:00:00Z"
+}
