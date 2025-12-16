@@ -1,0 +1,142 @@
+{
+  "types": [
+    {
+      "name": "Header",
+      "label": "Header Component",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Site Title",
+          "type": "Text",
+          "required": true
+        },
+        {
+          "name": "logo",
+          "label": "Logo Image",
+          "type": "Media",
+          "required": true
+        },
+        {
+          "name": "logoAlt",
+          "label": "Logo Alt Text",
+          "type": "Text",
+          "required": false
+        },
+        {
+          "name": "navigationLinks",
+          "label": "Navigation Links",
+          "type": "RichText",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Footer",
+      "label": "Footer Component",
+      "fields": [
+        {
+          "name": "copyrightText",
+          "label": "Copyright Text",
+          "type": "Text",
+          "required": true
+        },
+        {
+          "name": "footerLogo",
+          "label": "Footer Logo",
+          "type": "Media",
+          "required": false
+        },
+        {
+          "name": "socialLinks",
+          "label": "Social Media Links",
+          "type": "RichText",
+          "required": false
+        },
+        {
+          "name": "contactInfo",
+          "label": "Contact Information",
+          "type": "RichText",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "Banner",
+      "label": "Banner Image",
+      "fields": [
+        {
+          "name": "bannerImage",
+          "label": "Banner Image",
+          "type": "Media",
+          "required": true
+        },
+        {
+          "name": "bannerTitle",
+          "label": "Banner Title",
+          "type": "Text",
+          "required": true
+        },
+        {
+          "name": "bannerDescription",
+          "label": "Banner Description",
+          "type": "RichText",
+          "required": false
+        },
+        {
+          "name": "ctaText",
+          "label": "Call to Action Text",
+          "type": "Text",
+          "required": false
+        },
+        {
+          "name": "ctaLink",
+          "label": "Call to Action Link",
+          "type": "Text",
+          "required": false
+        }
+      ]
+    },
+    {
+      "name": "ContentBlock",
+      "label": "Content Block",
+      "fields": [
+        {
+          "name": "blockTitle",
+          "label": "Block Title",
+          "type": "Text",
+          "required": true
+        },
+        {
+          "name": "blockContent",
+          "label": "Block Content",
+          "type": "RichText",
+          "required": true
+        },
+        {
+          "name": "blockImage",
+          "label": "Block Image",
+          "type": "Media",
+          "required": false
+        },
+        {
+          "name": "blockImageAlt",
+          "label": "Block Image Alt Text",
+          "type": "Text",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "channelId": "website",
+      "channelName": "Main Website",
+      "isDefault": true
+    }
+  ],
+  "source": {
+    "name": "GitHub Pages CMS",
+    "type": "REST",
+    "version": "1.0"
+  }
+}
