@@ -1,0 +1,69 @@
+{
+  "banners": [
+    {
+      "contentId": "banner-001",
+      "contentType": "Banner",
+      "title": "Hero Banner - Salesforce Training",
+      "contentBody": {
+        "bannerImage": {
+          "url": "https://learnsalesforce360.github.io/assets/images/banners/hero-banner-1.jpg",
+          "altText": "Salesforce Training and Certification",
+          "width": 1920,
+          "height": 600
+        },
+        "bannerTitle": "Master Salesforce with Expert-Led Training",
+        "bannerDescription": "Transform your career with comprehensive Salesforce courses designed for all skill levels.",
+        "ctaText": "Get Started",
+        "ctaLink": "/courses",
+        "position": "hero",
+        "active": true
+      },
+      "language": "en_US",
+      "publishedDate": "2024-12-16T00:00:00Z"
+    },
+    {
+      "contentId": "banner-002",
+      "contentType": "Banner",
+      "title": "Promotional Banner - Winter Sale",
+      "contentBody": {
+        "bannerImage": {
+          "url": "https://learnsalesforce360.github.io/assets/images/banners/promo-banner-1.jpg",
+          "altText": "Winter Sale - 30% Off",
+          "width": 1920,
+          "height": 400
+        },
+        "bannerTitle": "Winter Sale - 30% Off All Courses",
+        "bannerDescription": "Limited time offer! Enroll now and save on all Salesforce certification courses.",
+        "ctaText": "View Courses",
+        "ctaLink": "/courses?promo=winter2024",
+        "position": "secondary",
+        "active": true,
+        "startDate": "2024-12-01T00:00:00Z",
+        "endDate": "2024-12-31T23:59:59Z"
+      },
+      "language": "en_US",
+      "publishedDate": "2024-12-01T00:00:00Z"
+    },
+    {
+      "contentId": "banner-003",
+      "contentType": "Banner",
+      "title": "Feature Banner - New Course Launch",
+      "contentBody": {
+        "bannerImage": {
+          "url": "https://learnsalesforce360.github.io/assets/images/banners/feature-banner-1.jpg",
+          "altText": "New Salesforce AI Course",
+          "width": 1200,
+          "height": 400
+        },
+        "bannerTitle": "New! Salesforce AI Specialist Certification",
+        "bannerDescription": "Be among the first to master Salesforce's latest AI features and earn your certification.",
+        "ctaText": "Learn More",
+        "ctaLink": "/courses/salesforce-ai-specialist",
+        "position": "feature",
+        "active": true
+      },
+      "language": "en_US",
+      "publishedDate": "2024-12-15T00:00:00Z"
+    }
+  ]
+}
